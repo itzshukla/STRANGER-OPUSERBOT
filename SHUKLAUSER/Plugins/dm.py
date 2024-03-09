@@ -5,7 +5,7 @@ import asyncio
 from random import choice
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from data import RAID, THE_ALTS
+from data import RAID, THE_SHUKLA
 from config import SUDO_USERS
 
 
