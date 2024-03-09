@@ -23,7 +23,7 @@ async def dmraid(xspam: Client, message: Message):
       if len(alt) == 3:
           ok = await xspam.get_users(alt[2])
           id = ok.id
-          if id in THE_ALTS:
+          if id in THE_SHUKLA:
                 await message.reply_text(f"ᴠᴇʀɪғɪᴇᴅ ʙʏ ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
           elif id in SUDO_USERS:
                 await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ !")
@@ -40,7 +40,7 @@ async def dmraid(xspam: Client, message: Message):
           user_id = message.reply_to_message.from_user.id
           ok = await xspam.get_users(user_id)
           id = ok.id
-          if id in THE_ALTS:
+          if id in THE_SHUKLA:
                 await message.reply_text(f"ᴠᴇʀɪғɪᴇᴅ ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
           elif id in SUDO_USERS:
                 await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ !")
@@ -62,7 +62,7 @@ async def dmspam(xspam: Client, message: Message):
     alt = message.text.split(" ", 3)
     if  len(alt) == 4:
         uid = int(alt[2])
-        if uid in THE_ALTS:
+        if uid in THE_SHUKLA:
             await message.reply_text(f"ᴠᴇʀɪғɪᴇᴅ ʙʏ ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
         elif uid in SUDO_USERS:
             await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ !")
@@ -75,7 +75,7 @@ async def dmspam(xspam: Client, message: Message):
 
     elif message.reply_to_message and (len(alt) == 3):
         id = message.reply_to_message.from_user.id
-        if id in THE_ALTS:
+        if id in THE_SHUKLA:
             await message.reply_text(f"™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
         elif id in SUDO_USERS:
             await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ !")
