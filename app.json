@@ -1,0 +1,56 @@
+{
+    "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓",
+    "logo": "https://telegra.ph/file/038602f34ce054644b9a9.jpg",
+    "keywords": ["telegram", "bot", "Shukla"],
+    "buildpacks": [{"url": "heroku/python"}],
+    "env": {
+        "SESSION1": {
+            "description": "pyrogram v2.0 string session here",
+            "required": true
+        },
+        "SESSION2": {
+            "description": "pyrogram v2.0 string session here",
+            "required": false
+        },
+        "SESSION3": {
+            "description": "pyrogram v2.0 string session here",
+            "required": false
+        },
+        "SESSION4": {
+            "description": "pyrogram v2.0 string session here",
+            "required": false
+        },
+        "SESSION5": {
+            "description": "pyrogram v2.0 string session here",
+            "required": false
+        },
+        "SUDO_USERS": {
+            "description": "Sudo Users ID here",
+            "required": false
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        },
+        "OWNER_ID": {
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Fill your bot token here",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Required when you want to add SUDO_USERS using bot commands.",
+            "required": false
+        },
+        "HEROKU_API_KEY": {
+            "description": "Required when you want to add SUDO_USERS using bot commands.",
+            "required": false
+        }
+    }
+  }
+  
