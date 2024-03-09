@@ -5,7 +5,7 @@ import asyncio
 from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from data import THE_ALTS, RAID
+from data import THE_SHUKLA, RAID
 from config import OWNER_ID, SUDO_USERS
 
 
@@ -29,7 +29,7 @@ async def raid(xspam: Client, message: Message):
       if len(alt) > 2:
             ok = await xspam.get_users(alt[2])
             id = ok.id
-            if id in THE_ALTS:
+            if id in THE_SHUKLA:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ  ᴏᴡɴᴇʀ !")
             elif id == OWNER_ID:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ !")
@@ -49,7 +49,7 @@ async def raid(xspam: Client, message: Message):
             user_id = message.reply_to_message.from_user.id
             ok = await xspam.get_users(user_id)
             id = ok.id
-            if id in THE_ALTS:
+            if id in THE_SHUKLA:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ  ᴏᴡɴᴇʀ !")
             elif id == OWNER_ID:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ !")
@@ -76,7 +76,7 @@ async def rraid(xspam: Client, message: Message):
       if len(alt) > 1:
           ok = await xspam.get_users(alt[1])
           id = ok.id
-          if id in THE_ALTS:
+          if id in THE_SHUKLA:
                 await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ  ᴏᴡɴᴇʀ !")
           elif id == OWNER_ID:
                 await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ !")
@@ -88,7 +88,7 @@ async def rraid(xspam: Client, message: Message):
 
       elif message.reply_to_message:
           user_id = message.reply_to_message.from_user.id
-          if user_id in THE_ALTS:
+          if user_id in THE_SHUKLA:
                 await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ  ᴏᴡɴᴇʀ !")
           elif user_id == OWNER_ID:
                 await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ !")
