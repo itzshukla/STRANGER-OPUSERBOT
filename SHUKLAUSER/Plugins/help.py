@@ -32,7 +32,7 @@ def private_panel():
 
 TXT = f"ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ !" 
 
-QA = "ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴛʀᴀɴɢᴇʀ sᴘᴀᴍ ᴜsᴇʀʙᴏᴛ \n\n\nᴄᴏᴘʏʀɪɢʜᴛ ʙʏ @mastiwithfriendsx\nᴄᴏᴅᴇ ʙʏ @SHIVANSH39"
+QA = "ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴛʀᴀɴɢᴇʀ sᴘᴀᴍ ᴜsᴇʀʙᴏᴛ \n\n\nᴄᴏᴘʏʀɪɢʜᴛ ʙʏ @MASTIWITHFRIENDSXD\nᴄᴏᴅᴇ ʙʏ @SHIVANSH39"
 
 HMH = f"""
 ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 sᴘᴀᴍ ᴠᴇʀsɪᴏɴ : `{__Version__}`
