@@ -37,10 +37,10 @@ async def userbot():
         alt1 = get_me1.id
         config.SUDO_USERS.append(alt1)
         try:
-            await one.join_chat("mastiwithfriendsx")
-            await one.join_chat("mastiwithfriendsx")
-            await one.join_chat("mastiwithfriendsx")
-            await one.join_chat("mastiwithfriendsx")
+            await one.join_chat("MASTIWITHFRIENDSXD")
+            await one.join_chat("MASTIWITHFRIENDSXD")
+            await one.join_chat("MASTIWITHFRIENDSXD")
+            await one.join_chat("MASTIWITHFRIENDSXD")
         except:
             pass
         LOGGER("SHUKLAUSER").info("𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 !")
@@ -51,10 +51,10 @@ async def userbot():
         alt2 = get_me2.id
         config.SUDO_USERS.append(alt2)
         try:
-            await two.join_chat("mastiwithfriendsx")
-            await two.join_chat("mastiwithfriendsx")
-            await two.join_chat("mastiwithfriendsx")
-            await two.join_chat("mastiwithfriendsx")
+            await two.join_chat("MASTIWITHFRIENDSXD")
+            await two.join_chat("MASTIWITHFRIENDSXD")
+            await two.join_chat("MASTIWITHFRIENDSXD")
+            await two.join_chat("MASTIWITHFRIENDSXD")
         except:
             pass
         LOGGER("SHUKLAUSER").info("𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
@@ -65,10 +65,10 @@ async def userbot():
         alt3 = get_me3.id
         config.SUDO_USERS.append(alt3)
         try:
-            await three.join_chat("mastiwithfriendsx")
-            await three.join_chat("mastiwithfriendsx")
-            await three.join_chat("mastiwithfriendsx")
-            await three.join_chat("mastiwithfriendsx")
+            await three.join_chat("MASTIWITHFRIENDSXD")
+            await three.join_chat("MASTIWITHFRIENDSXD")
+            await three.join_chat("MASTIWITHFRIENDSXD")
+            await three.join_chat("MASTIWITHFRIENDSXD")
         except:
             pass
         LOGGER("SHUKLAUSER").info("𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
@@ -79,10 +79,10 @@ async def userbot():
         alt4 = get_me4.id
         config.SUDO_USERS.append(alt4)
         try:
-            await four.join_chat("mastiwithfriendsx")
-            await four.join_chat("mastiwithfriendsx")
-            await four.join_chat("mastiwithfriendsx")
-            await four.join_chat("mastiwithfriendsx")
+            await four.join_chat("MASTIWITHFRIENDSXD")
+            await four.join_chat("MASTIWITHFRIENDSXD")
+            await four.join_chat("MASTIWITHFRIENDSXD")
+            await four.join_chat("MASTIWITHFRIENDSXD")
         except:
             pass
         LOGGER("SHUKLAUSER").info(f"𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")    
@@ -93,10 +93,10 @@ async def userbot():
         alt5 = get_me5.id
         config.SUDO_USERS.append(alt5)
         try:
-            await five.join_chat("mastiwithfriendsx")
-            await five.join_chat("mastiwithfriendsx")
-            await five.join_chat("mastiwithfriendsx")
-            await five.join_chat("mastiwithfriendsx")
+            await five.join_chat("MASTIWITHFRIENDSXD")
+            await five.join_chat("MASTIWITHFRIENDSXD")
+            await five.join_chat("MASTIWITHFRIENDSXD")
+            await five.join_chat("MASTIWITHFRIENDSXD")
         except:
             pass
         LOGGER("SHUKLAUSER").info(f"𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 !")
