@@ -29,7 +29,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-EXTRA_IMG = getenv("EXTRA_IMG", "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg")
+EXTRA_IMG = getenv("EXTRA_IMG", "https://files.catbox.moe/uufiry.jpg")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
