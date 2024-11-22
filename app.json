@@ -1,6 +1,6 @@
 {
     "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓",
-    "logo": "https://telegra.ph/file/038602f34ce054644b9a9.jpg",
+    "logo": "https://files.catbox.moe/uufiry.jpg",
     "keywords": ["telegram", "bot", "Shukla"],
     "buildpacks": [{"url": "heroku/python"}],
     "env": {
