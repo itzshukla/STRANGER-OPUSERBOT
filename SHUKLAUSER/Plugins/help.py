@@ -21,7 +21,7 @@ __HELP__ = """
 def private_panel():
     buttons = [
         [
-            InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/SHIVANSH474"),
+            InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/itszShukla"),
         ],
         [
             InlineKeyboardButton(text="Hᴇʟᴘ Mᴇɴᴜ", callback_data="home_help"),
@@ -32,7 +32,7 @@ def private_panel():
 
 TXT = f"ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ !" 
 
-QA = "ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴛʀᴀɴɢᴇʀ sᴘᴀᴍ ᴜsᴇʀʙᴏᴛ \n\n\nᴄᴏᴘʏʀɪɢʜᴛ ʙʏ @MASTIWITHFRIENDSXD\nᴄᴏᴅᴇ ʙʏ @SHIVANSH39"
+QA = "ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sᴛʀᴀɴɢᴇʀ sᴘᴀᴍ ᴜsᴇʀʙᴏᴛ \n\n\nᴄᴏᴘʏʀɪɢʜᴛ ʙʏ @MASTIWITHFRIENDSXD\nᴄᴏᴅᴇ ʙʏ @SHASHANKDEVS"
 
 HMH = f"""
 ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 sᴘᴀᴍ ᴠᴇʀsɪᴏɴ : `{__Version__}`
